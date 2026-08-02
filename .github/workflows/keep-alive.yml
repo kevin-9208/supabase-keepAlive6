@@ -3,7 +3,7 @@ name: Supabase Keep Alive
 on:
   schedule:
     # 每天 UTC 08:00 执行（即台湾时间 16:00）
-    - cron: '0 8 * * *'
+    - cron: '20 8 * * *'
   workflow_dispatch: # 允许手动触发，方便测试
 
 jobs:
